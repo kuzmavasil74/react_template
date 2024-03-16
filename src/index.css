@@ -1,0 +1,47 @@
+/* Скидання стандартних відступів та відступів */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Скидання стандартного оформлення тексту */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+/* Заборона обрізання тексту у властивості overflow */
+* {
+  box-sizing: border-box;
+}
+
+/* Скидання стилів списків */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Скидання стилів гіперпосилань */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Скидання стилів кнопок */
+button {
+  cursor: pointer;
+}
